@@ -4,7 +4,7 @@ let ball=document.querySelector('.bouncingBall'),
 
     setInterval(function(){
         if(y>250)
-        gravity=gravity;
+        gravity=-gravity;
         gravity+=1;
         y+=gravity;
         ball.style.top=(y)+'px';

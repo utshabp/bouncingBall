@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+body{
+    background-color: #023;
+}
+
+.pageContainer{
+    max-width: 100%;
+
+
+}
+
+.bouncingBall{
+height: 50px;
+width: 50px;
+position: relative;
+border-radius: 50%;
+background-color: rgb(64, 160, 167);
+margin:auto;
+box-shadow: 0px 0px 15px 5px rgb(35, 140, 182);
+}
+
+.floorLine{
+    height: 5vh;
+    width:inherit;
+    background-color: rgb(64, 160, 167);
+    top:24px;
+    position: relative;
+    top:250px;
+    box-shadow: 0px 0px 15px 5px rgb(35, 140, 182);
+
+}
+
+
